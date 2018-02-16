@@ -8400,8 +8400,12 @@ var _user$project$App$main = _elm_lang$virtual_dom$Native_VirtualDom.staticProgr
 																	_elm_lang$html$Html$a,
 																	{
 																		ctor: '::',
-																		_0: _elm_lang$html$Html_Attributes$class('navbar-item is-active'),
-																		_1: {ctor: '[]'}
+																		_0: _elm_lang$html$Html_Attributes$class('navbar-item'),
+																		_1: {
+																			ctor: '::',
+																			_0: _elm_lang$html$Html_Attributes$href('#serverless'),
+																			_1: {ctor: '[]'}
+																		}
 																	},
 																	{
 																		ctor: '::',
@@ -8415,7 +8419,11 @@ var _user$project$App$main = _elm_lang$virtual_dom$Native_VirtualDom.staticProgr
 																		{
 																			ctor: '::',
 																			_0: _elm_lang$html$Html_Attributes$class('navbar-item'),
-																			_1: {ctor: '[]'}
+																			_1: {
+																				ctor: '::',
+																				_0: _elm_lang$html$Html_Attributes$href('#cloud'),
+																				_1: {ctor: '[]'}
+																			}
 																		},
 																		{
 																			ctor: '::',
@@ -8429,7 +8437,11 @@ var _user$project$App$main = _elm_lang$virtual_dom$Native_VirtualDom.staticProgr
 																			{
 																				ctor: '::',
 																				_0: _elm_lang$html$Html_Attributes$class('navbar-item'),
-																				_1: {ctor: '[]'}
+																				_1: {
+																					ctor: '::',
+																					_0: _elm_lang$html$Html_Attributes$href('#onpremises'),
+																					_1: {ctor: '[]'}
+																				}
 																			},
 																			{
 																				ctor: '::',
@@ -8443,7 +8455,11 @@ var _user$project$App$main = _elm_lang$virtual_dom$Native_VirtualDom.staticProgr
 																				{
 																					ctor: '::',
 																					_0: _elm_lang$html$Html_Attributes$class('navbar-item'),
-																					_1: {ctor: '[]'}
+																					_1: {
+																						ctor: '::',
+																						_0: _elm_lang$html$Html_Attributes$href('#contact'),
+																						_1: {ctor: '[]'}
+																					}
 																				},
 																				{
 																					ctor: '::',
@@ -8968,8 +8984,12 @@ var _user$project$App$main = _elm_lang$virtual_dom$Native_VirtualDom.staticProgr
 													_elm_lang$html$Html$h2,
 													{
 														ctor: '::',
-														_0: _elm_lang$html$Html_Attributes$class('title'),
-														_1: {ctor: '[]'}
+														_0: _elm_lang$html$Html_Attributes$id('serverless'),
+														_1: {
+															ctor: '::',
+															_0: _elm_lang$html$Html_Attributes$class('title'),
+															_1: {ctor: '[]'}
+														}
 													},
 													{
 														ctor: '::',
@@ -9002,8 +9022,12 @@ var _user$project$App$main = _elm_lang$virtual_dom$Native_VirtualDom.staticProgr
 																_elm_lang$html$Html$h2,
 																{
 																	ctor: '::',
-																	_0: _elm_lang$html$Html_Attributes$class('title'),
-																	_1: {ctor: '[]'}
+																	_0: _elm_lang$html$Html_Attributes$id('cloud'),
+																	_1: {
+																		ctor: '::',
+																		_0: _elm_lang$html$Html_Attributes$class('title'),
+																		_1: {ctor: '[]'}
+																	}
 																},
 																{
 																	ctor: '::',
@@ -9036,8 +9060,12 @@ var _user$project$App$main = _elm_lang$virtual_dom$Native_VirtualDom.staticProgr
 																			_elm_lang$html$Html$h2,
 																			{
 																				ctor: '::',
-																				_0: _elm_lang$html$Html_Attributes$class('title'),
-																				_1: {ctor: '[]'}
+																				_0: _elm_lang$html$Html_Attributes$id('onpremises'),
+																				_1: {
+																					ctor: '::',
+																					_0: _elm_lang$html$Html_Attributes$class('title'),
+																					_1: {ctor: '[]'}
+																				}
 																			},
 																			{
 																				ctor: '::',
@@ -9082,19 +9110,168 @@ var _user$project$App$main = _elm_lang$virtual_dom$Native_VirtualDom.staticProgr
 									{
 										ctor: '::',
 										_0: A2(
-											_elm_lang$html$Html$footer,
+											_elm_lang$html$Html$br,
+											{ctor: '[]'},
+											{ctor: '[]'}),
+										_1: {
+											ctor: '::',
+											_0: A2(
+												_elm_lang$html$Html$div,
+												{
+													ctor: '::',
+													_0: _elm_lang$html$Html_Attributes$class('columns'),
+													_1: {ctor: '[]'}
+												},
+												{
+													ctor: '::',
+													_0: A2(
+														_elm_lang$html$Html$div,
+														{
+															ctor: '::',
+															_0: _elm_lang$html$Html_Attributes$class('column auto'),
+															_1: {ctor: '[]'}
+														},
+														{
+															ctor: '::',
+															_0: A2(
+																_elm_lang$html$Html$form,
+																{
+																	ctor: '::',
+																	_0: _elm_lang$html$Html_Attributes$class('form'),
+																	_1: {
+																		ctor: '::',
+																		_0: _elm_lang$html$Html_Attributes$method('post'),
+																		_1: {
+																			ctor: '::',
+																			_0: _elm_lang$html$Html_Attributes$action('https://p6c2wzb7s3.execute-api.us-east-1.amazonaws.com/dev/sendMail'),
+																			_1: {ctor: '[]'}
+																		}
+																	}
+																},
+																{
+																	ctor: '::',
+																	_0: A2(
+																		_elm_lang$html$Html$h2,
+																		{
+																			ctor: '::',
+																			_0: _elm_lang$html$Html_Attributes$id('contact'),
+																			_1: {
+																				ctor: '::',
+																				_0: _elm_lang$html$Html_Attributes$class('title'),
+																				_1: {ctor: '[]'}
+																			}
+																		},
+																		{
+																			ctor: '::',
+																			_0: _elm_lang$html$Html$text('Contact us'),
+																			_1: {ctor: '[]'}
+																		}),
+																	_1: {
+																		ctor: '::',
+																		_0: A2(
+																			_elm_lang$html$Html$label,
+																			{
+																				ctor: '::',
+																				_0: _elm_lang$html$Html_Attributes$class('label'),
+																				_1: {ctor: '[]'}
+																			},
+																			{
+																				ctor: '::',
+																				_0: _elm_lang$html$Html$text('Your email'),
+																				_1: {ctor: '[]'}
+																			}),
+																		_1: {
+																			ctor: '::',
+																			_0: A2(
+																				_elm_lang$html$Html$input,
+																				{
+																					ctor: '::',
+																					_0: _elm_lang$html$Html_Attributes$class('input'),
+																					_1: {
+																						ctor: '::',
+																						_0: _elm_lang$html$Html_Attributes$placeholder('Your email'),
+																						_1: {ctor: '[]'}
+																					}
+																				},
+																				{ctor: '[]'}),
+																			_1: {
+																				ctor: '::',
+																				_0: A2(
+																					_elm_lang$html$Html$label,
+																					{
+																						ctor: '::',
+																						_0: _elm_lang$html$Html_Attributes$class('label'),
+																						_1: {ctor: '[]'}
+																					},
+																					{
+																						ctor: '::',
+																						_0: _elm_lang$html$Html$text('Message'),
+																						_1: {ctor: '[]'}
+																					}),
+																				_1: {
+																					ctor: '::',
+																					_0: A2(
+																						_elm_lang$html$Html$textarea,
+																						{
+																							ctor: '::',
+																							_0: _elm_lang$html$Html_Attributes$class('textarea'),
+																							_1: {
+																								ctor: '::',
+																								_0: _elm_lang$html$Html_Attributes$placeholder('Let us know how we can help you...'),
+																								_1: {ctor: '[]'}
+																							}
+																						},
+																						{ctor: '[]'}),
+																					_1: {
+																						ctor: '::',
+																						_0: A2(
+																							_elm_lang$html$Html$button,
+																							{
+																								ctor: '::',
+																								_0: _elm_lang$html$Html_Attributes$class('button is-primary has-text-centered'),
+																								_1: {ctor: '[]'}
+																							},
+																							{
+																								ctor: '::',
+																								_0: _elm_lang$html$Html$text('Send'),
+																								_1: {ctor: '[]'}
+																							}),
+																						_1: {ctor: '[]'}
+																					}
+																				}
+																			}
+																		}
+																	}
+																}),
+															_1: {ctor: '[]'}
+														}),
+													_1: {ctor: '[]'}
+												}),
+											_1: {ctor: '[]'}
+										}
+									}),
+								_1: {
+									ctor: '::',
+									_0: A2(
+										_elm_lang$html$Html$br,
+										{ctor: '[]'},
+										{ctor: '[]'}),
+									_1: {
+										ctor: '::',
+										_0: A2(
+											_elm_lang$html$Html$div,
 											{
 												ctor: '::',
-												_0: _elm_lang$html$Html_Attributes$class('footer'),
+												_0: _elm_lang$html$Html_Attributes$class('container'),
 												_1: {ctor: '[]'}
 											},
 											{
 												ctor: '::',
 												_0: A2(
-													_elm_lang$html$Html$div,
+													_elm_lang$html$Html$footer,
 													{
 														ctor: '::',
-														_0: _elm_lang$html$Html_Attributes$class('container'),
+														_0: _elm_lang$html$Html_Attributes$class('footer'),
 														_1: {ctor: '[]'}
 													},
 													{
@@ -9103,45 +9280,56 @@ var _user$project$App$main = _elm_lang$virtual_dom$Native_VirtualDom.staticProgr
 															_elm_lang$html$Html$div,
 															{
 																ctor: '::',
-																_0: _elm_lang$html$Html_Attributes$class('content has-text-centered'),
+																_0: _elm_lang$html$Html_Attributes$class('container'),
 																_1: {ctor: '[]'}
 															},
 															{
 																ctor: '::',
 																_0: A2(
-																	_elm_lang$html$Html$p,
-																	{ctor: '[]'},
+																	_elm_lang$html$Html$div,
+																	{
+																		ctor: '::',
+																		_0: _elm_lang$html$Html_Attributes$class('content has-text-centered'),
+																		_1: {ctor: '[]'}
+																	},
 																	{
 																		ctor: '::',
 																		_0: A2(
-																			_elm_lang$html$Html$a,
-																			{
-																				ctor: '::',
-																				_0: _elm_lang$html$Html_Attributes$href('http://skynetng.pw/'),
-																				_1: {ctor: '[]'}
-																			},
+																			_elm_lang$html$Html$p,
+																			{ctor: '[]'},
 																			{
 																				ctor: '::',
 																				_0: A2(
-																					_elm_lang$html$Html$img,
+																					_elm_lang$html$Html$a,
 																					{
 																						ctor: '::',
-																						_0: _elm_lang$html$Html_Attributes$src('https://bulma.io/images/made-with-bulma--dark.png'),
-																						_1: {
-																							ctor: '::',
-																							_0: _elm_lang$html$Html_Attributes$alt('Made with Bulma'),
-																							_1: {
+																						_0: _elm_lang$html$Html_Attributes$href('http://skynetng.pw/'),
+																						_1: {ctor: '[]'}
+																					},
+																					{
+																						ctor: '::',
+																						_0: A2(
+																							_elm_lang$html$Html$img,
+																							{
 																								ctor: '::',
-																								_0: _elm_lang$html$Html_Attributes$width(128),
+																								_0: _elm_lang$html$Html_Attributes$src('https://bulma.io/images/made-with-bulma--dark.png'),
 																								_1: {
 																									ctor: '::',
-																									_0: _elm_lang$html$Html_Attributes$height(24),
-																									_1: {ctor: '[]'}
+																									_0: _elm_lang$html$Html_Attributes$alt('Made with Bulma'),
+																									_1: {
+																										ctor: '::',
+																										_0: _elm_lang$html$Html_Attributes$width(128),
+																										_1: {
+																											ctor: '::',
+																											_0: _elm_lang$html$Html_Attributes$height(24),
+																											_1: {ctor: '[]'}
+																										}
+																									}
 																								}
-																							}
-																						}
-																					},
-																					{ctor: '[]'}),
+																							},
+																							{ctor: '[]'}),
+																						_1: {ctor: '[]'}
+																					}),
 																				_1: {ctor: '[]'}
 																			}),
 																		_1: {ctor: '[]'}
@@ -9153,8 +9341,8 @@ var _user$project$App$main = _elm_lang$virtual_dom$Native_VirtualDom.staticProgr
 												_1: {ctor: '[]'}
 											}),
 										_1: {ctor: '[]'}
-									}),
-								_1: {ctor: '[]'}
+									}
+								}
 							}
 						}
 					}
