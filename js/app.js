@@ -9070,7 +9070,92 @@ var _user$project$App$main = _elm_lang$virtual_dom$Native_VirtualDom.staticProgr
 										}
 									}
 								}),
-							_1: {ctor: '[]'}
+							_1: {
+								ctor: '::',
+								_0: A2(
+									_elm_lang$html$Html$div,
+									{
+										ctor: '::',
+										_0: _elm_lang$html$Html_Attributes$class('container'),
+										_1: {ctor: '[]'}
+									},
+									{
+										ctor: '::',
+										_0: A2(
+											_elm_lang$html$Html$footer,
+											{
+												ctor: '::',
+												_0: _elm_lang$html$Html_Attributes$class('footer'),
+												_1: {ctor: '[]'}
+											},
+											{
+												ctor: '::',
+												_0: A2(
+													_elm_lang$html$Html$div,
+													{
+														ctor: '::',
+														_0: _elm_lang$html$Html_Attributes$class('container'),
+														_1: {ctor: '[]'}
+													},
+													{
+														ctor: '::',
+														_0: A2(
+															_elm_lang$html$Html$div,
+															{
+																ctor: '::',
+																_0: _elm_lang$html$Html_Attributes$class('content has-text-centered'),
+																_1: {ctor: '[]'}
+															},
+															{
+																ctor: '::',
+																_0: A2(
+																	_elm_lang$html$Html$p,
+																	{ctor: '[]'},
+																	{
+																		ctor: '::',
+																		_0: A2(
+																			_elm_lang$html$Html$a,
+																			{
+																				ctor: '::',
+																				_0: _elm_lang$html$Html_Attributes$href('http://skynetng.pw/'),
+																				_1: {ctor: '[]'}
+																			},
+																			{
+																				ctor: '::',
+																				_0: A2(
+																					_elm_lang$html$Html$img,
+																					{
+																						ctor: '::',
+																						_0: _elm_lang$html$Html_Attributes$src('https://bulma.io/images/made-with-bulma--dark.png'),
+																						_1: {
+																							ctor: '::',
+																							_0: _elm_lang$html$Html_Attributes$alt('Made with Bulma'),
+																							_1: {
+																								ctor: '::',
+																								_0: _elm_lang$html$Html_Attributes$width(128),
+																								_1: {
+																									ctor: '::',
+																									_0: _elm_lang$html$Html_Attributes$height(24),
+																									_1: {ctor: '[]'}
+																								}
+																							}
+																						}
+																					},
+																					{ctor: '[]'}),
+																				_1: {ctor: '[]'}
+																			}),
+																		_1: {ctor: '[]'}
+																	}),
+																_1: {ctor: '[]'}
+															}),
+														_1: {ctor: '[]'}
+													}),
+												_1: {ctor: '[]'}
+											}),
+										_1: {ctor: '[]'}
+									}),
+								_1: {ctor: '[]'}
+							}
 						}
 					}
 				}
