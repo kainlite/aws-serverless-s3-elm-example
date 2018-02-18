@@ -63,16 +63,15 @@ update msg model =
             ( model, Cmd.none )
 
 
-decodeMessage : Json.Decoder Message
 decodeMessage =
     Json.map2 Message
-        (Json.field "id" Json.string)
-        (Json.field "message" Json.string)
+        (Json.field "body" Json.string)
+        (Json.field "body" Json.string)
 
 
 postMessage newMessage =
     Http.send SendMessageHttp
-        (Http.post "https://csunn71hu7.execute-api.us-east-1.amazonaws.com/dev/sendMail"
+        (Http.post "https://3qhuby4ad5.execute-api.us-east-1.amazonaws.com/dev/sendmail"
             (encodeNewMessage newMessage)
             decodeMessage
         )

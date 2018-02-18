@@ -9070,8 +9070,8 @@ var _user$project$App$emptyModel = {newMessage: _user$project$App$emptyNewMessag
 var _user$project$App$decodeMessage = A3(
 	_elm_lang$core$Json_Decode$map2,
 	_user$project$App$Message,
-	A2(_elm_lang$core$Json_Decode$field, 'id', _elm_lang$core$Json_Decode$string),
-	A2(_elm_lang$core$Json_Decode$field, 'message', _elm_lang$core$Json_Decode$string));
+	A2(_elm_lang$core$Json_Decode$field, 'body', _elm_lang$core$Json_Decode$string),
+	A2(_elm_lang$core$Json_Decode$field, 'body', _elm_lang$core$Json_Decode$string));
 var _user$project$App$SendMessageHttp = function (a) {
 	return {ctor: 'SendMessageHttp', _0: a};
 };
@@ -9081,7 +9081,7 @@ var _user$project$App$postMessage = function (newMessage) {
 		_user$project$App$SendMessageHttp,
 		A3(
 			_elm_lang$http$Http$post,
-			'https://csunn71hu7.execute-api.us-east-1.amazonaws.com/dev/sendMail',
+			'https://3qhuby4ad5.execute-api.us-east-1.amazonaws.com/dev/sendmail',
 			_user$project$App$encodeNewMessage(newMessage),
 			_user$project$App$decodeMessage));
 };
