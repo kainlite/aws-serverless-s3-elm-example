@@ -65,8 +65,8 @@ update msg model =
 
 decodeMessage =
     Json.map2 Message
-        (Json.field "body" Json.string)
-        (Json.field "body" Json.string)
+        (Json.field "id" Json.string)
+        (Json.field "message" Json.string)
 
 
 postMessage newMessage =
