@@ -9081,7 +9081,7 @@ var _user$project$App$postMessage = function (newMessage) {
 		_user$project$App$SendMessageHttp,
 		A3(
 			_elm_lang$http$Http$post,
-			'https://3qhuby4ad5.execute-api.us-east-1.amazonaws.com/dev/sendmail',
+			'https://4w2elh2m29.execute-api.us-east-1.amazonaws.com/dev/sendMail',
 			_user$project$App$encodeNewMessage(newMessage),
 			_user$project$App$decodeMessage));
 };

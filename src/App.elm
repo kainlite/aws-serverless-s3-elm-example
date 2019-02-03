@@ -71,7 +71,7 @@ decodeMessage =
 
 postMessage newMessage =
     Http.send SendMessageHttp
-        (Http.post "https://3qhuby4ad5.execute-api.us-east-1.amazonaws.com/dev/sendmail"
+        (Http.post "https://4w2elh2m29.execute-api.us-east-1.amazonaws.com/dev/sendMail"
             (encodeNewMessage newMessage)
             decodeMessage
         )
