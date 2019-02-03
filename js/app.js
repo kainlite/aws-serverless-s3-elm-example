@@ -9328,7 +9328,7 @@ var _user$project$App$view = function (model) {
 															_0: _elm_lang$html$Html_Attributes$class('navbar-item'),
 															_1: {
 																ctor: '::',
-																_0: _elm_lang$html$Html_Attributes$href('http://skynetng.pw'),
+																_0: _elm_lang$html$Html_Attributes$href('http://serverless.techsquad.rocks'),
 																_1: {ctor: '[]'}
 															}
 														},
@@ -10204,7 +10204,7 @@ var _user$project$App$view = function (model) {
 																					_elm_lang$html$Html$a,
 																					{
 																						ctor: '::',
-																						_0: _elm_lang$html$Html_Attributes$href('http://skynetng.pw/'),
+																						_0: _elm_lang$html$Html_Attributes$href('http://serverless.techsquad.rocks/'),
 																						_1: {ctor: '[]'}
 																					},
 																					{
